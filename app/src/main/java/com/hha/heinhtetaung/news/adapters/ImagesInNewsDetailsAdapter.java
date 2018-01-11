@@ -37,7 +37,6 @@ public class ImagesInNewsDetailsAdapter extends PagerAdapter {
         LayoutInflater layoutInflater = LayoutInflater.from(context);
         ImageInNewsDetailsViewItem view = (ImageInNewsDetailsViewItem) layoutInflater.inflate(R.layout.item_news_details_images, container, false);
         container.addView(view);
-
         return view;
     }
 
